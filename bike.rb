@@ -9,5 +9,8 @@ class Bike
     @color = color
   end
 
+  def to_s 
+    "This #{color} bike is \$#{price}."
+  end
 
 end
